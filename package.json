@@ -1,0 +1,38 @@
+{
+  "name": "node-leveldb",
+  "author": "Sharvil Nanavati <sharvil.nanavati@gmail.com>",
+  "description": "Node.js bindings for LevelDB",
+  "version": "1.0.0",
+  "homepage": "https://github.com/sharvil/node-leveldb",
+
+  "main": "src/leveldb.js",
+  "gypfile": true,
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sharvil/node-leveldb"
+  },
+
+  "bugs": {
+    "url": "https://github.com/sharvil/node-leveldb/issues"
+  },
+
+  "licenses": [
+    {
+      "type": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+
+  "keywords": [
+    "leveldb",
+    "node",
+    "nosql",
+    "database"
+  ],
+
+  "dependencies": {
+    "bindings": "~1.2.1",
+    "nan": "^1.3.0"
+  }
+}
