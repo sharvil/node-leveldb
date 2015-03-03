@@ -2,7 +2,7 @@
   "name": "node-leveldb",
   "author": "Sharvil Nanavati <sharvil.nanavati@gmail.com>",
   "description": "Node.js bindings for LevelDB",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/sharvil/node-leveldb",
 
   "main": "src/leveldb.js",
