@@ -8,9 +8,9 @@ $ npm install node-leveldb
 
 ## Documentation
 ### LevelDB
-A LevelDB object is constructed and returned when you `require('node-leveldb')`. This object can be used for all operations on a single LevelDB database.
+A LevelDB class is returned when you `require('node-leveldb')`. An instance of this class can be used for all operations on a single LevelDB database.
 ```js
-    var LevelDB = require('node-leveldb');
+    var LevelDB = new require('node-leveldb')();
 ```
 
 ### LevelDB.open(databasePath)
@@ -53,7 +53,7 @@ Removes data from the database. If `key` is found in the database, this function
 
 ## Example
 ```js
-    var LevelDB = require('node-leveldb');
+    var LevelDB = new require('node-leveldb')();
     LevelDB.open('authors_database');
 
     LevelDB.set('Frank Herbert', 'Dune');

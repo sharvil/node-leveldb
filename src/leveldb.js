@@ -1,1 +1,1 @@
-module.exports = new (require('bindings')('node_leveldb')).Database();
+module.exports = (require('bindings')('node_leveldb')).Database;
